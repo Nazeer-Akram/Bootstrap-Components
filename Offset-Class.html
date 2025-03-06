@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Bootstrap-Custom-Css.css">
+    <title>Offset Class</title>
+</head>
+<body>
+        <div class="container ContainerStyle p-3 ">
+            <h5>Section : Container</h5>
+            <div class="row rowStyle p-3 border">
+                <h6>Section : Row</h6>
+
+                 <!-- Here, just below with this div offset class is apllied, It skips or levae the space of a div that is mentioned with offset class -->
+                <div class="col-3 columnStyle text-light border offset-1">Column 1</div>
+
+                <!-- Here, offset class with Breakpoint : lg -->
+                <div class="col-3 columnStyle text-light border offset-lg-2">Column 2</div>
+                <div class="col-3 columnStyle text-light border">Column 3</div>
+            </div>
+        </div>
+</body>
+</html>
