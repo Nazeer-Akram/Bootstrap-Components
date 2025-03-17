@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Bootstrap-Custom-Css.css">
+</head>
+<body>
+
+    <!-- Bootstrap : Float & clearfix -->
+
+    <!-- There are two classes for float  and one class for clearfix as mentioned below :-
+
+    Note : Float doesn't work with flex box menas where the parent would be flex it will not work.
+
+    float:
+        float-start      : Use to align item at left side.
+        float-center     : Use to align item at center side.
+        float-end        : Use to align item at right side.
+
+    clearfix:
+        clearfix : This class or property is very important to keep child divs inside the parent div other wise child divs will be out from the parnet divs, if it is not applied.
+     -->
+
+    <div class="ContainerStyle p-5 clearfix ">
+        <div class="border p-5 bg-secondary float-end ">First</div>
+        <div class="border p-5 bg-primary float-start">Second</div>
+    </div>
+    
+</body>
+</html>
